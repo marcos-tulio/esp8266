@@ -1,5 +1,5 @@
 # Comandos AT
-#### Módulos com 4MB de memória flash (Testado com NodeMCU Amica)
+#### Firmware para módulos com 4MB de memória flash (Testado com NodeMCU Amica)
 
 ```
 C:/> esptool --port COM4 erase_flash
