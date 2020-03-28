@@ -11,16 +11,13 @@ pip install esptool
 
 Windows|Linux|Descrição|
 -|-|-|
-`C:\> esptool flash_id` |`$ esptool.py flash_id`|Informações sobre o módulo
+`C:\> esptool flash_id` |`$ esptool.py flash_id`|Exibe informações sobre o módulo
 `C:\> esptool erase_flash`|`$ esptool.py erase_flash`|Limpa toda a memória flash
 `C:\> esptool write_flash`|`$ esptool.py write_flash`|Usado para programar a flash
 
 
-Comandos AT
+# AT
 
-Referência:
-https://www.espressif.com/sites/default/files/documentation/4a-esp8266_at_instruction_set_en.pdf
+<a href="https://www.espressif.com/sites/default/files/documentation/4a-esp8266_at_instruction_set_en.pdf">Comandos</a>
 
-Firmwares:
-https://www.espressif.com/en/support/download/at?keys=&field_type_tid%5B%5D=14
-
+<a href="https://github.com/marcos-tulio/esp8266/tree/update/firmwares">Firmwares</a>
