@@ -1,21 +1,20 @@
-Ferramentas
+# Ferramentas
 
-ESP TOOL
+### <a href="https://github.com/espressif/esptool">ESPTOOL</a>
 
-https://github.com/espressif/esptool
-
+#### Instalação:
+```
 pip install esptool
+```
 
-# Comandos essenciais
+#### Comandos essenciais
 
-Flash ID:
-C:\> esptool flash_id
+Windows|Linux|Descrição|
+-|-|-|
+`C:\> esptool flash_id` |`$ esptool.py flash_id`|Informações sobre o módulo
+`C:\> esptool erase_flash`|`$ esptool.py erase_flash`|Limpa toda a memória flash
+`C:\> esptool write_flash`|`$ esptool.py write_flash`|Usado para programar a flash
 
-Erase Flash:
-C:\> esptool erase_flash
-
-Write Flash:
-C:\> esptool write_flash
 
 Comandos AT
 
