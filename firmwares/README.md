@@ -12,4 +12,6 @@ Outros firmwares podem ser encontrados neste <a href="https://www.espressif.com/
 
 
 ### Escrever firmware na flash
+```
 esptool write_flash --flash_size 4MB-c1 --flash_mode dio 0x0 eagle.flash.bin 0x10000 eagle.irom0text.bin 0x3FC000 esp_init_data_default_v05.bin
+```
